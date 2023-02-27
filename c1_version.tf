@@ -1,3 +1,4 @@
+#terraform block
 terraform {
   required_version = ">= 0.14.0"
   required_providers {
@@ -6,4 +7,9 @@ terraform {
       version = "4.0"
      }
   }
+}
+
+#provider blocks
+provider "aws" {
+  region = eu-west-2
 }
