@@ -12,8 +12,3 @@ terraform {
     }
   }
 }
-
-#provider blocks
-provider "aws" {
-  region = eu-west-2
-}
